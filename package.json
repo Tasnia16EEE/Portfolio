@@ -1,8 +1,23 @@
 {
+  "name": "portfolio",
+  "version": "1.0.0",
+  "homepage": "https://Tasnia16EEE.github.io/Portfolio",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "lucide-react": "^0.536.0",
     "react": "^19.1.1",
-    "homepage": "https://Tasnia16EEE.github.io/Portfolio"
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0",
+    "gh-pages": "^6.1.1",
+    "@vitejs/plugin-react": "^4.0.3"
   }
 }
 
